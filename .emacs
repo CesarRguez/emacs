@@ -17,3 +17,5 @@
 
 (show-paren-mode t)
 (setq show-paren-style 'mixed)
+
+(setq backup-directory-alist `(("." . "~/.saves")))
