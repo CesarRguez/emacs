@@ -1,7 +1,7 @@
-(defconst elisp-path '("~/.emacs.d/lisp/"))
+(defconst lisp-path '("~/.emacs.d/lisp/"))
 (mapcar '(lambda(p)
            (add-to-list 'load-path p) 
-           (cd p) (normal-top-level-add-subdirs-to-load-path)) elisp-path)
+           (cd p) (normal-top-level-add-subdirs-to-load-path)) lisp-path)
 
 (require 'auto-complete)
 
